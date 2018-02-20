@@ -15,6 +15,8 @@ from colorama import Style
 
 from background_noise import get_top_bins_percentage
 
+has_reused_file = False
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-f',    '--force',    dest='force',         help='Force redownload of tracks',           default=False,    action='store_true')
@@ -59,10 +61,15 @@ def main():
         for message in track['messages']:
             print(FG.LIGHTBLACK_EX + indent(2, '%s' % message) + Style.RESET_ALL)
 
+
     if not has_messages:
         print(Style.BRIGHT + FG.GREEN + 'All tracks have been succesfully validated' + Style.RESET_ALL)
 
     print('')
+
+    if has_reused_file:
+        print(Style.BRIGHT + FG.YELLOW + 'Warning: some previously downloaded file(s) have been reused. Use --force to re-download everything.' + Style.RESET_ALL)
+
 
 # end
 
@@ -84,9 +91,12 @@ def download_track(options, track):
     """
     Download the track.url into track.path
     """
+    global has_reused_file
 
     if os.path.isfile(track['path']) and options.force is False:
         # Skip redownloading the file if already present
+        # but let the user know what is happening
+        has_reused_file = True
         return
 
     try:
@@ -202,6 +212,7 @@ def get_tracks(options):
                     'skip': False,
                     'messages': []
                 })
+    return tracks
 
 def sanitize_filename(filename):
     return re.sub(r'[^\w\s\-.]', '_', filename)
