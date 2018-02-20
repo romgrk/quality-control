@@ -27,27 +27,14 @@ def main():
 
     options = parser.parse_args()
 
-    print(Style.BRIGHT + 'Input: ' + FG.YELLOW + options.input + Style.RESET_ALL)
-    print(Style.BRIGHT + 'Download dir: ' + FG.YELLOW + options.download + Style.RESET_ALL)
-
-    hub = read_json(options.input)
-    tracks = []
-    for dataset_id, dataset in hub['datasets'].items():
-        for track_type, typeTracks in dataset['browser'].items():
-            for track in typeTracks:
-                tracks.append({
-                    'dataset': dataset_id,
-                    'track_type': track_type,
-                    'url': track['big_data_url'],
-                    'path': os.path.join(options.download, sanitize_filename(track['big_data_url'])),
-                    'md5': track['md5sum'],
-                    'skip': False,
-                    'messages': []
-                })
-
-    print(Style.BRIGHT + 'Tracks: ' + FG.YELLOW + str(len(tracks)) + Style.RESET_ALL)
+    tracks = get_tracks(options)
 
     create_directory(options.download)
+
+    print(Style.BRIGHT + 'Input: ' + FG.YELLOW + options.input + Style.RESET_ALL)
+    print(Style.BRIGHT + 'Download dir: ' + FG.YELLOW + options.download + Style.RESET_ALL)
+    print(Style.BRIGHT + 'Tracks: ' + FG.YELLOW + str(len(tracks)) + Style.RESET_ALL)
+
 
     # Run each step
 
@@ -199,6 +186,22 @@ def read_json(filepath):
     with open(filepath) as input_file:
         result = json.load(input_file)
     return result
+
+def get_tracks(options):
+    hub = read_json(options.input)
+    tracks = []
+    for dataset_id, dataset in hub['datasets'].items():
+        for track_type, typeTracks in dataset['browser'].items():
+            for track in typeTracks:
+                tracks.append({
+                    'dataset': dataset_id,
+                    'track_type': track_type,
+                    'url': track['big_data_url'],
+                    'path': os.path.join(options.download, sanitize_filename(track['big_data_url'])),
+                    'md5': track['md5sum'],
+                    'skip': False,
+                    'messages': []
+                })
 
 def sanitize_filename(filename):
     return re.sub(r'[^\w\s\-.]', '_', filename)
