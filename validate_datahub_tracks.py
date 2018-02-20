@@ -22,8 +22,9 @@ def main():
     parser.add_argument('-c',    '--chrom',    dest='chrom_count',   help='Minimum chrom count',                  default=23,       type=int)
     parser.add_argument('-b',    '--bases',    dest='bases_covered', help='Minimum bases covered',                default=75000000, type=int)
     parser.add_argument('-s',    '--bin-size', dest='bin_size',      help='Bin size',                             default=25,       type=int)
-    parser.add_argument('-t',    '--top-bins', dest='top_bins',      help='Top bins to check (%)',                default=10,       type=int)
+    parser.add_argument('-t',    '--top-bins', dest='top_bins',      help='Top bins to check, in percentage',     default=10,       type=int)
     parser.add_argument('input', help='Input IHEC Data Hub JSON file')
+
     options = parser.parse_args()
 
     print(Style.BRIGHT + 'Input: ' + FG.YELLOW + options.input + Style.RESET_ALL)
