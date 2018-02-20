@@ -28,3 +28,9 @@ optional arguments:
   -t TOP_BINS, --top-bins TOP_BINS
                         Top bins to check, in percentage
 ```
+
+### Installation
+
+```sh
+sudo pip install -r requirements.txt
+```
