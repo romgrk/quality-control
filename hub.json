@@ -1,0 +1,922 @@
+{
+    "hub_description": {
+        "taxon_id": 9606,
+        "assembly": "hg19",
+        "publishing_group": "Other",
+        "email": "mathieu.lupien@uhnresearch.ca",
+        "date": "2017-09-18",
+        "description": "H3K27ac profiling in human prostate cancer samples.",
+	"description_url": "http://www.nature.com/ng/journal/v49/n9/full/ng.3930.html"
+    },
+
+    "samples": {
+        "CPCG0233": {
+            "biomaterial_type": "Primary Cell",
+	    "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0002367",
+	    "disease": "Prostate carcinoma",
+            "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0000673",
+            "molecule": "genomic DNA",
+            "biomaterial_provider": "Mathieu Lupien",
+	    "donor_sex": "Male",
+	    "cell_type": "primary prostate cancer tissue",
+	    "donor_id": "CPCG0233",
+	    "donor_life_stage": "adult",
+   	    "donor_health_status": "prostate cancer",
+       	    "donor_age": "44-71",
+	    "donor_age_unit": "year",
+	    "donor_ethnicity": "NA"
+        },
+	"CPCG0236": {
+            "biomaterial_type": "Primary Cell",
+            "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0002367",
+            "disease": "Prostate carcinoma",
+            "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0000673",
+            "molecule": "genomic DNA",
+            "biomaterial_provider": "Mathieu Lupien",
+            "donor_sex": "Male",
+            "cell_type": "primary prostate cancer tissue",
+            "donor_id": "CPCG0236",
+            "donor_life_stage": "adult",
+            "donor_health_status": "prostate cancer",
+	    "donor_age": "44-71",
+	    "donor_age_unit": "year",
+	    "donor_ethnicity": "NA"
+        },
+	"CPCG0242": {
+            "biomaterial_type": "Primary Cell",
+            "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0002367",
+            "disease": "Prostate carcinoma",
+            "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0000673",
+            "molecule": "genomic DNA",
+            "biomaterial_provider": "Mathieu Lupien",
+            "donor_sex": "Male",
+            "cell_type": "primary prostate cancer tissue",
+            "donor_id": "CPCG0242",
+            "donor_life_stage": "adult",
+            "donor_health_status": "prostate cancer",
+	    "donor_age": "44-71",
+	    "donor_age_unit": "year",
+	    "donor_ethnicity": "NA"
+        },
+	"CPCG0246": {
+            "biomaterial_type": "Primary Cell",
+            "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0002367",
+            "disease": "Prostate carcinoma",
+            "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0000673",
+            "molecule": "genomic DNA",
+            "biomaterial_provider": "Mathieu Lupien",
+            "donor_sex": "Male",
+            "cell_type": "primary prostate cancer tissue",
+            "donor_id": "CPCG0246",
+            "donor_life_stage": "adult",
+            "donor_health_status": "prostate cancer",
+	    "donor_age": "44-71",
+	    "donor_age_unit": "year",
+	    "donor_ethnicity": "NA"
+        },
+	"CPCG0248": {
+            "biomaterial_type": "Primary Cell",
+            "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0002367",
+            "disease": "Prostate carcinoma",
+            "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0000673",
+            "molecule": "genomic DNA",
+            "biomaterial_provider": "Mathieu Lupien",
+            "donor_sex": "Male",
+            "cell_type": "primary prostate cancer tissue",
+            "donor_id": "CPCG0248",
+            "donor_life_stage": "adult",
+            "donor_health_status": "prostate cancer",
+	    "donor_age": "44-71",
+	    "donor_age_unit": "year",
+	    "donor_ethnicity": "NA"
+        },
+	"CPCG0258": {
+            "biomaterial_type": "Primary Cell",
+            "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0002367",
+            "disease": "Prostate carcinoma",
+            "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0000673",
+            "molecule": "genomic DNA",
+            "biomaterial_provider": "Mathieu Lupien",
+            "donor_sex": "Male",
+            "cell_type": "primary prostate cancer tissue",
+            "donor_id": "CPCG0258",
+            "donor_life_stage": "adult",
+            "donor_health_status": "prostate cancer",
+	    "donor_age": "44-71",
+	    "donor_age_unit": "year",
+	    "donor_ethnicity": "NA"
+        },
+	"CPCG0259": {
+            "biomaterial_type": "Primary Cell",
+            "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0002367",
+            "disease": "Prostate carcinoma",
+            "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0000673",
+            "molecule": "genomic DNA",
+            "biomaterial_provider": "Mathieu Lupien",
+            "donor_sex": "Male",
+            "cell_type": "primary prostate cancer tissue",
+            "donor_id": "CPCG0259",
+            "donor_life_stage": "adult",
+            "donor_health_status": "prostate cancer",
+	    "donor_age": "44-71",
+	    "donor_age_unit": "year",
+	    "donor_ethnicity": "NA"
+        },
+        "CPCG0262": {
+            "biomaterial_type": "Primary Cell",
+            "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0002367",
+            "disease": "Prostate carcinoma",
+            "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0000673",
+            "molecule": "genomic DNA",
+            "biomaterial_provider": "Mathieu Lupien",
+            "donor_sex": "Male",
+            "cell_type": "primary prostate cancer tissue",
+            "donor_id": "CPCG0262",
+            "donor_life_stage": "adult",
+            "donor_health_status": "prostate cancer",
+	    "donor_age": "44-71",
+	    "donor_age_unit": "year",
+	    "donor_ethnicity": "NA"
+        },
+        "CPCG0265": {
+            "biomaterial_type": "Primary Cell",
+            "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0002367",
+            "disease": "Prostate carcinoma",
+            "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0000673",
+            "molecule": "genomic DNA",
+            "biomaterial_provider": "Mathieu Lupien",
+            "donor_sex": "Male",
+            "cell_type": "primary prostate cancer tissue",
+            "donor_id": "CPCG0265",
+            "donor_life_stage": "adult",
+            "donor_health_status": "prostate cancer",
+	    "donor_age": "44-71",
+	    "donor_age_unit": "year",
+	    "donor_ethnicity": "NA"
+        },
+        "CPCG0266": {
+            "biomaterial_type": "Primary Cell",
+            "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0002367",
+            "disease": "Prostate carcinoma",
+            "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0000673",
+            "molecule": "genomic DNA",
+            "biomaterial_provider": "Mathieu Lupien",
+            "donor_sex": "Male",
+            "cell_type": "primary prostate cancer tissue",
+            "donor_id": "CPCG0266",
+            "donor_life_stage": "adult",
+            "donor_health_status": "prostate cancer",
+	    "donor_age": "44-71",
+	    "donor_age_unit": "year",
+	    "donor_ethnicity": "NA"
+        },
+        "CPCG0267": {
+            "biomaterial_type": "Primary Cell",
+            "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0002367",
+            "disease": "Prostate carcinoma",
+            "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0000673",
+            "molecule": "genomic DNA",
+            "biomaterial_provider": "Mathieu Lupien",
+            "donor_sex": "Male",
+            "cell_type": "primary prostate cancer tissue",
+            "donor_id": "CPCG0267",
+            "donor_life_stage": "adult",
+            "donor_health_status": "prostate cancer",
+	    "donor_age": "44-71",
+	    "donor_age_unit": "year",
+	    "donor_ethnicity": "NA"
+        },
+        "CPCG0269": {
+            "biomaterial_type": "Primary Cell",
+            "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0002367",
+            "disease": "Prostate carcinoma",
+            "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0000673",
+            "molecule": "genomic DNA",
+            "biomaterial_provider": "Mathieu Lupien",
+            "donor_sex": "Male",
+            "cell_type": "primary prostate cancer tissue",
+            "donor_id": "CPCG0269",
+            "donor_life_stage": "adult",
+            "donor_health_status": "prostate cancer",
+	    "donor_age": "44-71",
+	    "donor_age_unit": "year",
+	    "donor_ethnicity": "NA"
+        },
+        "CPCG0339": {
+            "biomaterial_type": "Primary Cell",
+            "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0002367",
+            "disease": "Prostate carcinoma",
+            "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0000673",
+            "molecule": "genomic DNA",
+            "biomaterial_provider": "Mathieu Lupien",
+            "donor_sex": "Male",
+            "cell_type": "primary prostate cancer tissue",
+            "donor_id": "CPCG0339",
+            "donor_life_stage": "adult",
+            "donor_health_status": "prostate cancer",
+	    "donor_age": "44-71",
+	    "donor_age_unit": "year",
+	    "donor_ethnicity": "NA"
+        },
+        "CPCG0340": {
+            "biomaterial_type": "Primary Cell",
+            "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0002367",
+            "disease": "Prostate carcinoma",
+            "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0000673",
+            "molecule": "genomic DNA",
+            "biomaterial_provider": "Mathieu Lupien",
+            "donor_sex": "Male",
+            "cell_type": "primary prostate cancer tissue",
+            "donor_id": "CPCG0340",
+            "donor_life_stage": "adult",
+            "donor_health_status": "prostate cancer",
+	    "donor_age": "44-71",
+	    "donor_age_unit": "year",
+	    "donor_ethnicity": "NA"
+        },
+        "CPCG0341": {
+            "biomaterial_type": "Primary Cell",
+            "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0002367",
+            "disease": "Prostate carcinoma",
+            "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0000673",
+            "molecule": "genomic DNA",
+            "biomaterial_provider": "Mathieu Lupien",
+            "donor_sex": "Male",
+            "cell_type": "primary prostate cancer tissue",
+            "donor_id": "CPCG0341",
+            "donor_life_stage": "adult",
+            "donor_health_status": "prostate cancer",
+	    "donor_age": "44-71",
+	    "donor_age_unit": "year",
+	    "donor_ethnicity": "NA"
+        },
+        "CPCG0342": {
+            "biomaterial_type": "Primary Cell",
+            "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0002367",
+            "disease": "Prostate carcinoma",
+            "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0000673",
+            "molecule": "genomic DNA",
+            "biomaterial_provider": "Mathieu Lupien",
+            "donor_sex": "Male",
+            "cell_type": "primary prostate cancer tissue",
+            "donor_id": "CPCG0342",
+            "donor_life_stage": "adult",
+            "donor_health_status": "prostate cancer",
+	    "donor_age": "44-71",
+	    "donor_age_unit": "year",
+	    "donor_ethnicity": "NA"
+        },
+        "CPCG0348": {
+            "biomaterial_type": "Primary Cell",
+            "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0002367",
+            "disease": "Prostate carcinoma",
+            "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0000673",
+            "molecule": "genomic DNA",
+            "biomaterial_provider": "Mathieu Lupien",
+            "donor_sex": "Male",
+            "cell_type": "primary prostate cancer tissue",
+            "donor_id": "CPCG0348",
+            "donor_life_stage": "adult",
+            "donor_health_status": "prostate cancer",
+	    "donor_age": "44-71",
+	    "donor_age_unit": "year",
+	    "donor_ethnicity": "NA"
+        },
+        "CPCG0365": {
+            "biomaterial_type": "Primary Cell",
+            "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0002367",
+            "disease": "Prostate carcinoma",
+            "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0000673",
+            "molecule": "genomic DNA",
+            "biomaterial_provider": "Mathieu Lupien",
+            "donor_sex": "Male",
+            "cell_type": "primary prostate cancer tissue",
+            "donor_id": "CPCG0365",
+            "donor_life_stage": "adult",
+            "donor_health_status": "prostate cancer",
+	    "donor_age": "44-71",
+	    "donor_age_unit": "year",
+	    "donor_ethnicity": "NA"
+        },
+        "CPCG0366": {
+            "biomaterial_type": "Primary Cell",
+            "sample_ontology_uri": "http://purl.obolibrary.org/obo/UBERON_0002367",
+            "disease": "Prostate carcinoma",
+            "disease_ontology_uri": "http://www.ebi.ac.uk/efo/EFO_0000673",
+            "molecule": "genomic DNA",
+            "biomaterial_provider": "Mathieu Lupien",
+            "donor_sex": "Male",
+            "cell_type": "primary prostate cancer tissue",
+            "donor_id": "CPCG0366",
+            "donor_life_stage": "adult",
+            "donor_health_status": "prostate cancer",
+	    "donor_age": "44-71",
+	    "donor_age_unit": "year",
+	    "donor_ethnicity": "NA"
+        }
+
+    },
+
+    "datasets": {
+        "CPCG0233": {
+            "sample_id": "CPCG0233",
+            "experiment_attributes": {
+                "experiment_type": "Histone H3K27ac",
+                "assay_type": "ChIP-Seq versus Histone H3K27ac",
+                "experiment_ontology_uri": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002017",
+		"reference_registry_id": "UNKNOWN"
+            },
+            "analysis_attributes": {
+		"data_analysis_level": "2",
+                "analysis_group": "Lupien Lab",
+                "alignment_software": "Bowtie",
+                "alignment_software_version": "2.0.5",
+                "analysis_software": "MACS",
+                "analysis_software_version": "v2.0.10"	
+            },
+            "browser": {
+                "signal_unstranded": [
+                    {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0233.bw",
+                        "md5sum": "1119aa6a2b1edd48fb264d098c68c7e4"
+                    }
+                ],
+                "peak_calls": [
+                     {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0233_peaks.bb",
+                        "md5sum": "6b25aa9350ec88382229a5a2db9b2358"
+                    }
+                ]
+            }
+        },
+        "CPCG0236": {
+            "sample_id": "CPCG0236",
+            "experiment_attributes": {
+                "experiment_type": "Histone H3K27ac",
+                "assay_type": "ChIP-Seq versus Histone H3K27ac",
+                "experiment_ontology_uri": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002017",
+		"reference_registry_id": "UNKNOWN"
+            },
+            "analysis_attributes": {
+		"data_analysis_level": "2",
+                "analysis_group": "Lupien Lab",
+                "alignment_software": "Bowtie",
+                "alignment_software_version": "2.0.5",
+                "analysis_software": "MACS",
+                "analysis_software_version": "v2.0.10"	
+            },
+            "browser": {
+                "signal_unstranded": [
+                    {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0236.bw",
+                        "md5sum": "9b7de02a3f65a5e8650a11601e6c72e9"
+                    }
+                ],
+                "peak_calls": [
+                     {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0236_peaks.bb",
+                        "md5sum": "933c0de2f35c5b975f0ff3d8649b4ff3"
+                    }
+                ]
+            }
+        },
+        "CPCG0242": {
+            "sample_id": "CPCG0242",
+            "experiment_attributes": {
+                "experiment_type": "Histone H3K27ac",
+                "assay_type": "ChIP-Seq versus Histone H3K27ac",
+                "experiment_ontology_uri": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002017",
+		"reference_registry_id": "UNKNOWN"
+            },
+            "analysis_attributes": {
+		"data_analysis_level": "2",
+                "analysis_group": "Lupien Lab",
+                "alignment_software": "Bowtie",
+                "alignment_software_version": "2.0.5",
+                "analysis_software": "MACS",
+                "analysis_software_version": "v2.0.10"	
+            },
+            "browser": {
+                "signal_unstranded": [
+                    {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0242.bw",
+                        "md5sum": "afe584c63d368dc759956c50c4833dec"
+                    }
+                ],
+                "peak_calls": [
+                     {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0242_peaks.bb",
+                        "md5sum": "87b488ea79486f2e56ceffda1add415f"
+                    }
+                ]
+            }
+        },"CPCG0246": {
+            "sample_id": "CPCG0246",
+            "experiment_attributes": {
+                "experiment_type": "Histone H3K27ac",
+                "assay_type": "ChIP-Seq versus Histone H3K27ac",
+                "experiment_ontology_uri": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002017",
+		"reference_registry_id": "UNKNOWN"
+            },
+            "analysis_attributes": {
+		"data_analysis_level": "2",
+                "analysis_group": "Lupien Lab",
+                "alignment_software": "Bowtie",
+                "alignment_software_version": "2.0.5",
+                "analysis_software": "MACS",
+                "analysis_software_version": "v2.0.10"	
+            },
+            "browser": {
+                "signal_unstranded": [
+                    {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0246.bw",
+                        "md5sum": "ce52f850a9b9cd347c6c619b877a340e"
+                    }
+                ],
+                "peak_calls": [
+                     {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0246_peaks.bb",
+                        "md5sum": "afc979f47cfce225157aa8c345e7f5d2"
+                    }
+                ]
+            }
+        },
+	"CPCG0248": {
+            "sample_id": "CPCG0248",
+            "experiment_attributes": {
+                "experiment_type": "Histone H3K27ac",
+                "assay_type": "ChIP-Seq versus Histone H3K27ac",
+                "experiment_ontology_uri": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002017",
+		"reference_registry_id": "UNKNOWN"
+            },
+            "analysis_attributes": {
+		"data_analysis_level": "2",
+                "analysis_group": "Lupien Lab",
+                "alignment_software": "Bowtie",
+                "alignment_software_version": "2.0.5",
+                "analysis_software": "MACS",
+                "analysis_software_version": "v2.0.10"	
+            },
+            "browser": {
+                "signal_unstranded": [
+                    {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0248.bw",
+                        "md5sum": "26bbb89d283401420e248644bae43790"
+                    }
+                ],
+                "peak_calls": [
+                     {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0248_peaks.bb",
+                        "md5sum": "c200908bd4074830331fd718682b0d6e"
+                    }
+                ]
+            }
+        },
+	"CPCG0258": {
+            "sample_id": "CPCG0258",
+            "experiment_attributes": {
+                "experiment_type": "Histone H3K27ac",
+                "assay_type": "ChIP-Seq versus Histone H3K27ac",
+                "experiment_ontology_uri": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002017",
+		"reference_registry_id": "UNKNOWN"
+            },
+            "analysis_attributes": {
+		"data_analysis_level": "2",
+                "analysis_group": "Lupien Lab",
+                "alignment_software": "Bowtie",
+                "alignment_software_version": "2.0.5",
+                "analysis_software": "MACS",
+                "analysis_software_version": "v2.0.10"	
+            },
+            "browser": {
+                "signal_unstranded": [
+                    {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0258.bw",
+                        "md5sum": "e84d39a26101ddeb54cbeceddd37dfee"
+                    }
+                ],
+                "peak_calls": [
+                     {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0258_peaks.bb",
+                        "md5sum": "8e1e25464559ac80138f4b7f6949cf2a"
+                    }
+                ]
+            }
+        },
+	"CPCG0259": {
+            "sample_id": "CPCG0259",
+            "experiment_attributes": {
+                "experiment_type": "Histone H3K27ac",
+                "assay_type": "ChIP-Seq versus Histone H3K27ac",
+                "experiment_ontology_uri": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002017",
+		"reference_registry_id": "UNKNOWN"
+            },
+            "analysis_attributes": {
+		"data_analysis_level": "2",
+                "analysis_group": "Lupien Lab",
+                "alignment_software": "Bowtie",
+                "alignment_software_version": "2.0.5",
+                "analysis_software": "MACS",
+                "analysis_software_version": "v2.0.10"	
+            },
+            "browser": {
+                "signal_unstranded": [
+                    {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0259.bw",
+                        "md5sum": "7d5058705943322616576c68cd82abd7"
+                    }
+                ],
+                "peak_calls": [
+                     {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0259_peaks.bb",
+                        "md5sum": "be337477dde506f50161af20e47f078a"
+                    }
+                ]
+            }
+        },
+	"CPCG0262": {
+            "sample_id": "CPCG0262",
+            "experiment_attributes": {
+                "experiment_type": "Histone H3K27ac",
+                "assay_type": "ChIP-Seq versus Histone H3K27ac",
+                "experiment_ontology_uri": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002017",
+		"reference_registry_id": "UNKNOWN"
+            },
+            "analysis_attributes": {
+		"data_analysis_level": "2",
+                "analysis_group": "Lupien Lab",
+                "alignment_software": "Bowtie",
+                "alignment_software_version": "2.0.5",
+                "analysis_software": "MACS",
+                "analysis_software_version": "v2.0.10"	
+            },
+            "browser": {
+                "signal_unstranded": [
+                    {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0262.bw",
+                        "md5sum": "4a63f0582a623a4078b8f67b10f76ebc"
+                    }
+                ],
+                "peak_calls": [
+                     {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0262_peaks.bb",
+                        "md5sum": "b134b5bf319cc9c45c3f9ff58e9dd8a1"
+                    }
+                ]
+            }
+        },
+	"CPCG0265": {
+            "sample_id": "CPCG0265",
+            "experiment_attributes": {
+                "experiment_type": "Histone H3K27ac",
+                "assay_type": "ChIP-Seq versus Histone H3K27ac",
+                "experiment_ontology_uri": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002017",
+		"reference_registry_id": "UNKNOWN"
+            },
+            "analysis_attributes": {
+		"data_analysis_level": "2",
+                "analysis_group": "Lupien Lab",
+                "alignment_software": "Bowtie",
+                "alignment_software_version": "2.0.5",
+                "analysis_software": "MACS",
+                "analysis_software_version": "v2.0.10"	
+            },
+            "browser": {
+                "signal_unstranded": [
+                    {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0265.bw",
+                        "md5sum": "58b06d5eb36b06b5c79ad477e6327623"
+                    }
+                ],
+                "peak_calls": [
+                     {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0265_peaks.bb",
+                        "md5sum": "ddce848426838254446a937139aca19f"
+                    }
+                ]
+            }
+        },
+	"CPCG0266": {
+            "sample_id": "CPCG0266",
+            "experiment_attributes": {
+                "experiment_type": "Histone H3K27ac",
+                "assay_type": "ChIP-Seq versus Histone H3K27ac",
+                "experiment_ontology_uri": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002017",
+		"reference_registry_id": "UNKNOWN"
+            },
+            "analysis_attributes": {
+		"data_analysis_level": "2",
+                "analysis_group": "Lupien Lab",
+                "alignment_software": "Bowtie",
+                "alignment_software_version": "2.0.5",
+                "analysis_software": "MACS",
+                "analysis_software_version": "v2.0.10"	
+            },
+            "browser": {
+                "signal_unstranded": [
+                    {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0266.bw",
+                        "md5sum": "304f16661698ae342354df070522709a"
+                    }
+                ],
+                "peak_calls": [
+                     {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0266_peaks.bb",
+                        "md5sum": "df268051eb5c29dfdd170b340c058d80"
+                    }
+                ]
+            }
+        },
+	"CPCG0267": {
+            "sample_id": "CPCG0267",
+            "experiment_attributes": {
+                "experiment_type": "Histone H3K27ac",
+                "assay_type": "ChIP-Seq versus Histone H3K27ac",
+                "experiment_ontology_uri": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002017",
+		"reference_registry_id": "UNKNOWN"
+            },
+            "analysis_attributes": {
+		"data_analysis_level": "2",
+                "analysis_group": "Lupien Lab",
+                "alignment_software": "Bowtie",
+                "alignment_software_version": "2.0.5",
+                "analysis_software": "MACS",
+                "analysis_software_version": "v2.0.10"	
+            },
+            "browser": {
+                "signal_unstranded": [
+                    {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0267.bw",
+                        "md5sum": "df6274f7225e5f83ccd7fd83fe84c955"
+                    }
+                ],
+                "peak_calls": [
+                     {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0267_peaks.bb",
+                        "md5sum": "617997ff3540107df2287875c607153f"
+                    }
+                ]
+            }
+        },
+	"CPCG0269": {
+            "sample_id": "CPCG0269",
+            "experiment_attributes": {
+                "experiment_type": "Histone H3K27ac",
+                "assay_type": "ChIP-Seq versus Histone H3K27ac",
+                "experiment_ontology_uri": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002017",
+		"reference_registry_id": "UNKNOWN"
+            },
+            "analysis_attributes": {
+		"data_analysis_level": "2",
+                "analysis_group": "Lupien Lab",
+                "alignment_software": "Bowtie",
+                "alignment_software_version": "2.0.5",
+                "analysis_software": "MACS",
+                "analysis_software_version": "v2.0.10"	
+            },
+            "browser": {
+                "signal_unstranded": [
+                    {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0269.bw",
+                        "md5sum": "4cd90ed2b7e837f5c9de21c8de2a3edf"
+                    }
+                ],
+                "peak_calls": [
+                     {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0269_peaks.bb",
+                        "md5sum": "9cb3b365117afeb818b5e3d08bd16c30"
+                    }
+                ]
+            }
+        },
+	"CPCG0339": {
+            "sample_id": "CPCG0339",
+            "experiment_attributes": {
+                "experiment_type": "Histone H3K27ac",
+                "assay_type": "ChIP-Seq versus Histone H3K27ac",
+                "experiment_ontology_uri": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002017",
+		"reference_registry_id": "UNKNOWN"
+            },
+            "analysis_attributes": {
+		"data_analysis_level": "2",
+                "analysis_group": "Lupien Lab",
+                "alignment_software": "Bowtie",
+                "alignment_software_version": "2.0.5",
+                "analysis_software": "MACS",
+                "analysis_software_version": "v2.0.10"	
+            },
+            "browser": {
+                "signal_unstranded": [
+                    {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0339.bw",
+                        "md5sum": "746dc9e65c1035df9cae425a48522a97"
+                    }
+                ],
+                "peak_calls": [
+                     {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0339_peaks.bb",
+                        "md5sum": "9d826666638aabb35ba9ecb87b8c00cf"
+                    }
+                ]
+            }
+        },
+	"CPCG0340": {
+            "sample_id": "CPCG0340",
+            "experiment_attributes": {
+                "experiment_type": "Histone H3K27ac",
+                "assay_type": "ChIP-Seq versus Histone H3K27ac",
+                "experiment_ontology_uri": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002017",
+		"reference_registry_id": "UNKNOWN"
+            },
+            "analysis_attributes": {
+		"data_analysis_level": "2",
+                "analysis_group": "Lupien Lab",
+                "alignment_software": "Bowtie",
+                "alignment_software_version": "2.0.5",
+                "analysis_software": "MACS",
+                "analysis_software_version": "v2.0.10"	
+            },
+            "browser": {
+                "signal_unstranded": [
+                    {
+                        "big_data_url": "https://google.com",
+                        "md5sum": "02395781923840923840239740275023"
+                    },
+                    {
+                        "big_data_url": "https://unexistent-domain-2385720384701239470.com/file.bw",
+                        "md5sum": "02395781923840923840239740275023"
+                    },
+                    {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/NOT_FOUND.bw",
+                        "md5sum": "02395781923840923840239740275023"
+                    },
+                    {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0340.bw",
+                        "md5sum": "4ab1d0d4cb35fb861374ad2016efa8bf"
+                    }
+                ],
+                "peak_calls": [
+                     {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0340_peaks.bb",
+                        "md5sum": "c1f99813b1e49f30eb6f49621d70f2ad"
+                    }
+                ]
+            }
+        },
+	"CPCG0341": {
+            "sample_id": "CPCG0341",
+            "experiment_attributes": {
+                "experiment_type": "Histone H3K27ac",
+                "assay_type": "ChIP-Seq versus Histone H3K27ac",
+                "experiment_ontology_uri": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002017",
+		"reference_registry_id": "UNKNOWN"
+            },
+            "analysis_attributes": {
+		"data_analysis_level": "2",
+                "analysis_group": "Lupien Lab",
+                "alignment_software": "Bowtie",
+                "alignment_software_version": "2.0.5",
+                "analysis_software": "MACS",
+                "analysis_software_version": "v2.0.10"	
+            },
+            "browser": {
+                "signal_unstranded": [
+                    {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0341.bw",
+                        "md5sum": "8711f0489a9a01ae4d9af85161631920"
+                    }
+                ],
+                "peak_calls": [
+                     {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0341_peaks.bb",
+                        "md5sum": "4e88f08f9b6dd62e1caf3eb9b8eb5cb5"
+                    }
+                ]
+            }
+        },
+	"CPCG0342": {
+            "sample_id": "CPCG0342",
+            "experiment_attributes": {
+                "experiment_type": "Histone H3K27ac",
+                "assay_type": "ChIP-Seq versus Histone H3K27ac",
+                "experiment_ontology_uri": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002017",
+		"reference_registry_id": "UNKNOWN"
+            },
+            "analysis_attributes": {
+		"data_analysis_level": "2",
+                "analysis_group": "Lupien Lab",
+                "alignment_software": "Bowtie",
+                "alignment_software_version": "2.0.5",
+                "analysis_software": "MACS",
+                "analysis_software_version": "v2.0.10"	
+            },
+            "browser": {
+                "signal_unstranded": [
+                    {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0342.bw",
+                        "md5sum": "217e592e92d7cd138ee02997753edf6d"
+                    }
+                ],
+                "peak_calls": [
+                     {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0342_peaks.bb",
+                        "md5sum": "38d6673b6f941b8985bf64e0710c197a"
+                    }
+                ]
+            }
+        },
+	"CPCG0348": {
+            "sample_id": "CPCG0348",
+            "experiment_attributes": {
+                "experiment_type": "Histone H3K27ac",
+                "assay_type": "ChIP-Seq versus Histone H3K27ac",
+                "experiment_ontology_uri": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002017",
+		"reference_registry_id": "UNKNOWN"
+            },
+            "analysis_attributes": {
+		"data_analysis_level": "2",
+                "analysis_group": "Lupien Lab",
+                "alignment_software": "Bowtie",
+                "alignment_software_version": "2.0.5",
+                "analysis_software": "MACS",
+                "analysis_software_version": "v2.0.10"	
+            },
+            "browser": {
+                "signal_unstranded": [
+                    {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0348.bw",
+                        "md5sum": "ec091006acd7e9eefe195db5a6386593"
+                    }
+                ],
+                "peak_calls": [
+                     {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0348_peaks.bb",
+                        "md5sum": "2b0a7ed4948f50b31d2873e6d40d5449"
+                    }
+                ]
+            }
+        },
+	"CPCG0365": {
+            "sample_id": "CPCG0365",
+            "experiment_attributes": {
+                "experiment_type": "Histone H3K27ac",
+                "assay_type": "ChIP-Seq versus Histone H3K27ac",
+                "experiment_ontology_uri": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002017",
+		"reference_registry_id": "UNKNOWN"
+            },
+            "analysis_attributes": {
+		"data_analysis_level": "2",
+                "analysis_group": "Lupien Lab",
+                "alignment_software": "Bowtie",
+                "alignment_software_version": "2.0.5",
+                "analysis_software": "MACS",
+                "analysis_software_version": "v2.0.10"	
+            },
+            "browser": {
+                "signal_unstranded": [
+                    {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0365.bw",
+                        "md5sum": "83c78c8871eeb25299512a346f4908be"
+                    }
+                ],
+                "peak_calls": [
+                     {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0365_peaks.bb",
+                        "md5sum": "06b87994d3ca902625322f30379e3ae5"
+                    }
+                ]
+            }
+        },
+	"CPCG0366": {
+            "sample_id": "CPCG0366",
+            "experiment_attributes": {
+                "experiment_type": "Histone H3K27ac",
+                "assay_type": "ChIP-Seq versus Histone H3K27ac",
+                "experiment_ontology_uri": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002017",
+		"reference_registry_id": "UNKNOWN"
+            },
+            "analysis_attributes": {
+		"data_analysis_level": "2",
+                "analysis_group": "Lupien Lab",
+                "alignment_software": "Bowtie",
+                "alignment_software_version": "2.0.5",
+                "analysis_software": "MACS",
+                "analysis_software_version": "v2.0.10"	
+            },
+            "browser": {
+                "signal_unstranded": [
+                    {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0366.bw",
+                        "md5sum": "550afdbc00a0ebdd9f27e9417742afe1"
+                    }
+                ],
+                "peak_calls": [
+                     {
+                        "big_data_url": "https://datahub-3fl67ocb.udes.genap.ca/CPCG0366_peaks.bb",
+                        "md5sum": "92fad2cc7f4b1fc8e64d655de65fc996"
+                    }
+                ]
+            }
+        }
+    }
+}
