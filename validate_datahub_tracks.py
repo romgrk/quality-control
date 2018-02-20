@@ -57,9 +57,9 @@ def main():
             continue
         has_messages = True
 
-        print('{style}{dataset}:{type}:'.format(style=Style.NORMAL, dataset=track['dataset'], type=track['track_type']) + Style.RESET_ALL)
+        print('{style}{dataset}:{type}:'.format(style=FG.LIGHTBLUE_EX, dataset=track['dataset'], type=track['track_type']) + Style.RESET_ALL)
         for message in track['messages']:
-            print(FG.LIGHTBLACK_EX + indent(2, '%s' % message) + Style.RESET_ALL)
+            print(FG.LIGHTWHITE_EX + indent(2, '%s' % message) + Style.RESET_ALL)
 
 
     if not has_messages:
