@@ -161,7 +161,7 @@ def check_track_info(options, track):
         log_error(message)
 
     if bases_covered < options.bases_covered:
-        message = 'Not enough bases: %s (min %s)' % (filename, bases_covered, options.bases_covered)
+        message = 'Not enough bases: %s (min %s)' % (bases_covered, options.bases_covered)
         track['messages'].append(message)
         log_error(message)
 
