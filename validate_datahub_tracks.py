@@ -17,6 +17,8 @@ from background_noise import get_top_bins_percentage
 
 has_reused_file = False
 
+Style.TITLE = '\x1b[48;5;15m\x1b[38;5;0m'
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-f',    '--force',    dest='force',         help='Force redownload of tracks',           default=False,    action='store_true')
@@ -48,7 +50,7 @@ def main():
     # Print final report
 
     print('')
-    print(Style.BRIGHT + 'Report:' + Style.RESET_ALL)
+    print(Style.TITLE + 'Report:' + Style.RESET_ALL)
     print('')
 
     has_messages = False
@@ -57,7 +59,7 @@ def main():
             continue
         has_messages = True
 
-        print('{style}{dataset}:{type}:'.format(style=FG.LIGHTBLUE_EX, dataset=track['dataset'], type=track['track_type']) + Style.RESET_ALL)
+        print('{style}{dataset}:{type}:{url}'.format(style=FG.LIGHTBLUE_EX, dataset=track['dataset'], type=track['track_type'], url=track['url']) + Style.RESET_ALL)
         for message in track['messages']:
             print(FG.LIGHTWHITE_EX + indent(2, '%s' % message) + Style.RESET_ALL)
 
@@ -74,7 +76,7 @@ def main():
 # end
 
 def apply_step(options, tracks, fn):
-    print(Style.BRIGHT + '\nStep: ' + fn.__name__ + Style.RESET_ALL)
+    print('\n' + Style.TITLE + 'Step: ' + fn.__name__ + Style.RESET_ALL)
     for track in tracks:
         if track['skip']:
             continue
