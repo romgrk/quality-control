@@ -87,12 +87,12 @@ def apply_step(options, tracks, fn):
     print('\n' + Style.TITLE + 'Step: ' + fn.__name__ + Style.RESET_ALL)
     index = 0
     for track in tracks:
-        if track['skip']:
-            continue
-        fn(options, track)
         index += 1
         if index % 10 == 0:
             log('%i%%' % (index / len(tracks) * 100))
+        if track['skip']:
+            continue
+        fn(options, track)
     log('Done')
 
 #
