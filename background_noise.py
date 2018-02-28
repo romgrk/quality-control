@@ -18,7 +18,7 @@ def main():
     if not bw.isBigWig():
         print('%s is not a bigWig' % options.input)
         sys.exit(2)
-    percentageTopBins = check_top_bins_percentage(options.b, options.t, bw)
+    percentageTopBins = get_top_bins_percentage(options.b, options.t, bw)
 
     if percentageTopBins < options.p:
         print('Top %i%% bins under %i%%: %f%%' % (options.t, options.p, percentageTopBins))

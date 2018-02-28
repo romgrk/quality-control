@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+from __future__ import division
 from __future__ import print_function
 
 import argparse
@@ -21,12 +22,13 @@ Style.TITLE = '\x1b[48;5;15m\x1b[38;5;0m'
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-f',    '--force',    dest='force',         help='Force redownload of tracks',           default=False,    action='store_true')
-    parser.add_argument('-d',    '--download', dest='download',      help='Directory to store downloaded tracks', default='./tracks')
-    parser.add_argument('-c',    '--chrom',    dest='chrom_count',   help='Minimum chrom count',                  default=23,       type=int)
-    parser.add_argument('-b',    '--bases',    dest='bases_covered', help='Minimum bases covered',                default=75000000, type=int)
-    parser.add_argument('-s',    '--bin-size', dest='bin_size',      help='Bin size',                             default=25,       type=int)
-    parser.add_argument('-t',    '--top-bins', dest='top_bins',      help='Top bins to check, in percentage',     default=10,       type=int)
+    parser.add_argument('-f',    '--force',        dest='force',          help='Force redownload of tracks',           default=False,    action='store_true')
+    parser.add_argument('-d',    '--download',     dest='download',       help='Directory to store downloaded tracks', default='./tracks')
+    parser.add_argument('-c',    '--chrom',        dest='chrom_count',    help='Minimum chrom count',                  default=23,       type=int)
+    parser.add_argument('-b',    '--bases',        dest='bases_covered',  help='Minimum bases covered',                default=75000000, type=int)
+    parser.add_argument('-s',    '--bin-size',     dest='bin_size',       help='Bin size',                             default=25,       type=int)
+    parser.add_argument('-t',    '--top-bins',     dest='top_bins',       help='Top bins to check, in percentage',     default=10,       type=int)
+    parser.add_argument('-p',    '--top-percent',  dest='top_percentage', help='Top bins percentage',                  default=30,       type=int)
     parser.add_argument('input', help='Input IHEC Data Hub JSON file')
 
     options = parser.parse_args()
@@ -42,10 +44,16 @@ def main():
 
     # Run each step
 
-    apply_step(options, tracks, download_track)
-    apply_step(options, tracks, validate_md5)
-    apply_step(options, tracks, check_track_info)
-    apply_step(options, tracks, check_background_noise)
+    steps = [
+        download_track,
+        validate_md5,
+        check_track_info,
+        check_background_noise
+    ]
+
+    for step in steps:
+        apply_step(options, tracks, step)
+
 
     # Print final report
 
@@ -59,7 +67,7 @@ def main():
             continue
         has_messages = True
 
-        print('{style}{dataset}:{type}:{url}'.format(style=FG.LIGHTBLUE_EX, dataset=track['dataset'], type=track['track_type'], url=track['url']) + Style.RESET_ALL)
+        print('{style}{dataset}:{type} {url_style}[{url}]'.format(style=Style.BRIGHT, url_style=FG.LIGHTBLACK_EX, dataset=track['dataset'], type=track['track_type'], url=track['url']) + Style.RESET_ALL)
         for message in track['messages']:
             print(FG.LIGHTWHITE_EX + indent(2, '%s' % message) + Style.RESET_ALL)
 
@@ -77,10 +85,14 @@ def main():
 
 def apply_step(options, tracks, fn):
     print('\n' + Style.TITLE + 'Step: ' + fn.__name__ + Style.RESET_ALL)
+    index = 0
     for track in tracks:
         if track['skip']:
             continue
         fn(options, track)
+        index += 1
+        if index % 10 == 0:
+            log('%i%%' % (index / len(tracks) * 100))
     log('Done')
 
 #
@@ -175,9 +187,15 @@ def check_background_noise(options, track):
         return
 
     try:
-        print(get_top_bins_percentage(options.bin_size, options.top_bins, track['path']))
+        percentage = get_top_bins_percentage(options.bin_size, options.top_bins, track['path'])
     except Exception as e:
         track['messages'].append(repr(e))
+
+    if percentage < options.top_percentage:
+        message = 'Top %i%% bins under %i%%: %f%%' % (options.top_bins, options.top_percentage, percentage)
+        track['messages'].append(message)
+        log_error(message)
+
 
 
 #
